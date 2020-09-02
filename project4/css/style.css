@@ -21,7 +21,7 @@ body {
 }
 
 .wrap {
-    height: 300px;
+    height: 350px;
     width: 600px;
     padding: 20px;
     text-align: center;
@@ -29,7 +29,56 @@ body {
 }
 
 .head-text {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text-head4 {
     font-size: 1.4em;
     font-weight: bold;
-    text-transform: capitalize;
+}
+
+.message-form {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+    appearance: none;
+}
+
+.send-button {
+    border: none;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight:bold;
+    appearance: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.note-text {
+    color: tomato;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    appearance: none;
+}
+
+.change-text { 
+    color: rgb(14, 76, 158);
+}
+
+.el-hidden {
+    display: none;
 }
